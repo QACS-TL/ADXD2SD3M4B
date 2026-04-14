@@ -1,6 +1,6 @@
 ﻿namespace LabsSolutions.Lab2;
 public class Program{
-    public static void Start()
+    public static void Main()
     {
         Account account = new Account(111, "Mike", 100);
         account.Deposit(100);
